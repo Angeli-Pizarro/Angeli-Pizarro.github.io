@@ -1,7 +1,144 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <!--
+WRITTEN BY: Angeli Conde Pizarro
+EMAIL: acpizar1@uci.edu
+-->
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Angeli Conde Pizarro" />
+    <meta
+      name="description"
+      content="This page is Angeli Pizarro's portfolio."
+    />
+    <!-- you would link to an external stylesheet here! -->
+    <!-- you would also link to Bootstrap here! -->
+    <title>Angeli's Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+  </head>
   <body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+    <header>
+      <div id="brand"><a href="/">ANGELI CONDE PIZARRO</a></div>
+      <nav class="topnav">
+        <ul>
+          <li class="active menu-link">
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="menu-link">
+            <a href="/projects.html">Projects</a>
+          </li>
+          <li class="menu-link">
+            <a href="/resume.html">Resume</a>
+          </li>
+          <li class="menu-link">
+            <a class="nav-link" href="/contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="dropdown">
+        <button
+          class="btn btn-sm dropdown-toggle m-0"
+          style="background-color: #00ced1"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Menu
+        </button>
+        <ul class="dropdown-menu">
+          <li class="menu-link">
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="menu-link">
+            <a href="/projects.html">Projects</a>
+          </li>
+          <li class="menu-link">
+            <a href="/resume.html">Resume</a>
+          </li>
+          <li class="menu-link">
+            <a class="nav-link" href="/contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <main class="container text-center">
+      <section class="intro row justify-content-evenly">
+        <div class="intro-img col-md-4">
+          <img
+            class="headshot"
+            src="media/Angeli_Pizarro_Headshot.JPG"
+            alt="A straight-on headshot of Angeli Pizarro"
+          />
+        </div>
+
+        <div class="intro-text col-md-6 text-center">
+          <h1 class="fw-semibold">Hello! My name is Angeli Conde Pizarro!</h1>
+          <h2>
+            I am a student at University of California, Irvine as an Informatics
+            Major specializing in Human-Computer Interaction and a Minor in
+            Digital Arts.
+          </h2>
+        </div>
+      </section>
+
+      <section class="about row justify-content-evenly">
+        <div class="about-text col-md-8">
+          <h2>About Me!</h2>
+          <p class="fs-4">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime et
+            fugit temporibus omnis sint possimus cumque dolore aut. Provident
+            libero, necessitatibus consectetur earum illum suscipit optio rerum
+            vel harum nulla recusandae explicabo sint sapiente ea hic, quia
+            minima officia cum laudantium reiciendis eius veritatis placeat ab?
+            Possimus, id alias. Quisquam hic corporis distinctio libero culpa
+            eum eligendi a quis repellat obcaecati voluptas assumenda nulla,
+            voluptates beatae maiores autem praesentium soluta voluptatum maxime
+            suscipit. Repudiandae aliquid culpa optio enim consequatur
+            consequuntur adipisci error. Earum, vitae quod voluptatibus ipsa
+            sint nesciunt, cupiditate quisquam error architecto natus eius totam
+            cum reprehenderit at. Animi?
+          </p>
+        </div>
+
+        <div class="about-img col-md-3">
+          <img
+            class="support-headshot"
+            src="media/Angeli_Headshot_2.jpeg"
+            alt="A slightly left-side view headshot of Angeli Pizarro"
+          />
+        </div>
+      </section>
+      <footer>
+        <p>In the mood for scrolling music?</p>
+        <p>
+          Play For the First Time In Forever (Reprise) from "Frozen" AKA One of
+          my favorite movies of all time!
+        </p>
+        <audio controls autoplay>
+          <!--autoplay-->
+          <source
+            src="media/For_the_First_Time_in_Forever_Reprise.mp3"
+            type="audio/mpeg"
+          />
+        </audio>
+      </footer>
+    </main>
+
+    <p>
+      <a href="http://validator.w3.org/check?uri=referer"> W3C validator </a>
+    </p>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

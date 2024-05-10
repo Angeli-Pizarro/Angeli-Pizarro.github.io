@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+header a {
+    text-decoration: none;
+}
+
+header {
+    padding: 0 20px;
+    background-color: #09c7fb;
+    background-image: linear-gradient(315deg, #93fb9d 0%, #09c7fb 74%);
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+#brand {
+    font-weight: bold;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+}
+
+#brand a {
+    color: #333;
+}
+
+ul {
+    list-style: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /*display: flex;*/
+}
+
+ul a {
+    color: #333;
+}
+
+ul li {
+    padding-top: 17px;
+    padding-right: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    margin-left: 10px;
+    height: 60px;
+}
+
+ul li:hover {
+    background-color: white;
+    color: black;
+}
+
+ul li.active {
+    background-color: #00CED1;
+    color: #333;
+}
+
+.dropdown {
+    display: none;
+}
+
+.open .dropdown-menu {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    top: 50px;
+    left: 0;
+    height: calc(100vh - 50px);
+    width: 100%;
+}
+
+
+@media only screen and (max-width: 590px) {
+    header nav {
+        display: none;
+    }
+
+    .dropdown {
+        display: block;
+    }
+}
+
+/*@media screen and (max-width: 720px) {
+    .headshot {
+        width: 80%
+    }
+}*/
+
+
+.container {
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /*background-color: black;*/
+} 
+
+.container .contact-btns {
+    flex-direction: column;
+    align-items: center;
+}
+
+.container .contact {
+    width: 80%;
+    height: 70px;
+    padding-top: 30px;
+    align-items: center;
+}
+
+@media screen and (max-width: 425px) {
+    .container .contact {
+        width: 100%
+    }
+
+    .btn .personal-email {
+        height: 100px;
+    }
+}
+
+.intro {
+    padding-top: 80px;
+    align-items: center;
+}
+
+.intro-text .projects {
+    padding: 20px;
+}
+
+.headshot {
+    position: relative;
+    border-radius: 50%;
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    border: 10px solid #09c7fb;
+}
+
+.support-headshot {
+    position: relative;
+    border-radius: 50%;
+    width: 100%;
+    padding: 0px;
+    margin:0px;
+    border: 10px solid #93fb9d;
+}
+
+.about {
+    padding-top: 70px;
+    align-items: center;
+}
+
+.projects {
+    padding-top: 100px;
+}
+
+.project-one {
+    padding-top: 20px;
+}
+
+.project-two {
+    padding-top: 30px;
+}
+
+.project-three {
+    padding-top: 30px;
+}
+
+.resume {
+    padding-top: 100px;
+}
+
+.resume-pdf {
+    padding-top: 20px;
+    width: 100%;
+}
+
+.contacts {
+    padding-top: 100px;
+}
+
+.btn {
+    margin: 30px;
+    padding: 50px;
+    height: 100%;
+    vertical-align: center;
+    align-items: center;
+}
+
+/*.icon .con-btn{
+    margin: 30px;
+    padding: 50px;
+    height: 100%;
+    vertical-align: center;
+    align-items: center;
+}*/
+
+
+.contact-btns {
+    padding-top: 35px;
+}
+
+
+  h1{
+    font-family: 'Young Serif', serif;
+  }
+
+  h2 {
+    font-family: 'Young Serif', serif;
+  }
+
+  #brand {
+    font-family: 'Young Serif', serif;
+  }
+
+  .menu-link {
+    font-family: Verdana, sans-serif;
+  }
+
+  h3 {
+    font-family: Verdana, sans-serif;
+  }
+
+  p {
+    font-family: Verdana, sans-serif;
+  }
