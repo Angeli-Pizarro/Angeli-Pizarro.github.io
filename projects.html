@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zxx">
+<html lang="en">
   <!--change this to 'en' when you actually add projects-->
   <head>
     <meta charset="utf-8" />
@@ -16,15 +16,19 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Modak&family=Rubik:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="media/AP.svg" />
   </head>
   <body>
     <header>
-      <div id="brand"><a href="/">ANGELI CONDE PIZARRO</a></div>
+      <div id="brand" class="modak-regular"><a href="/">ACP</a></div>
       <nav class="topnav">
         <ul>
-          <li class="menu-link">
-            <a href="/index.html">Home</a>
-          </li>
           <li class="active menu-link">
             <a href="/projects.html">Projects</a>
           </li>
@@ -62,41 +66,29 @@
         </ul>
       </div>
     </header>
-    <section class="container projects">
+    <section class="container work">
       <div class="text-center">
-        <h1>My Projects</h1>
+        <h1 class="josefin-sans-bold">My Projects</h1>
       </div>
-      <div class="project-one">
-        <h2>Project #1 Title</h2>
-        <p>
-          Project description: Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Obcaecati ex, nesciunt itaque vero, vel id labore
-          eos repellendus temporibus, assumenda molestiae dolores maiores
-          dolorem sunt! Eos nostrum ducimus ipsum iste, excepturi recusandae,
-          reiciendis corrupti, consectetur veritatis quisquam minus
-          necessitatibus dolore neque laudantium. Sequi obcaecati perferendis
-          debitis? Ex saepe aliquam suscipit, eaque modi minus ullam amet
-          molestias explicabo molestiae odio cumque temporibus voluptas, officia
-          rem quia maxime nam blanditiis, dicta labore voluptatem animi eveniet
-          iusto. Quaerat aliquam recusandae id dolores fugit harum corporis.
-          Debitis quia ab iusto sit deserunt ducimus doloribus maiores, atque,
-          voluptas, minima praesentium excepturi veniam accusantium? Cupiditate,
-          assumenda veritatis suscipit aut earum culpa id sunt alias delectus
-          voluptas! Ipsam deserunt esse maiores. Fuga, exercitationem natus.
-          Modi, explicabo sint harum quaerat placeat ducimus amet iure nostrum
-          nulla! Impedit labore veritatis, non magnam corrupti alias quam quasi
-          voluptas, deserunt commodi rem iusto, eligendi adipisci tempore culpa
-          obcaecati saepe aspernatur cumque. Libero officia, saepe veritatis
-          molestiae fugiat quam aspernatur cum nihil iusto rerum impedit
-          voluptate debitis. Odio reiciendis, voluptatum distinctio quibusdam
-          omnis, nihil voluptatem similique doloribus repellat, repellendus
-          voluptates exercitationem incidunt eveniet architecto nemo ab modi hic
-          quae cumque saepe neque nobis? Velit blanditiis deserunt quis
-          cupiditate ducimus repellendus, voluptates doloribus.
-        </p>
-      </div>
+      <section class="project row align-items-center">
+        <div class="left col-md-6">
+          <a href="/choreganizer.html">
+            <img
+              src="media/Choreganizer Screenshot.png"
+              alt="A phone displaying a to-do list of chores and multiple user profiles across the top of the page."
+            />
+          </a>
+        </div>
+        <div class="right col-md-6">
+          <h2 class="josefin-sans-semibold">Choreganizer</h2>
+          <p>
+            Improving roommate relationships by equally distributing and
+            organizing house chores.
+          </p>
+        </div>
+      </section>
 
-      <div class="project-two">
+      <!-- <div class="project-two">
         <h2>Project #2 Title</h2>
         <p>
           Project Description: Lorem ipsum dolor, sit amet consectetur
@@ -154,7 +146,7 @@
           reiciendis, nihil sunt placeat sit molestiae aspernatur iusto
           possimus, autem, quo omnis et. Unde?
         </p>
-      </div>
+      </div> -->
     </section>
 
     <script

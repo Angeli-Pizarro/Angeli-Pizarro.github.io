@@ -23,6 +23,13 @@
   font-style: normal;
 }
 
+.josefin-sans-regular {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .modak-regular {
     font-family: "Modak", system-ui;
     font-weight: 400;
@@ -171,7 +178,7 @@ h1 {
 }
 
 .intro {
-    padding-top: 80px;
+    padding-top: 130px;
     align-items: center;
 }
 
@@ -202,16 +209,31 @@ h1 {
 }
 
 .about {
-    padding-top: 70px;
+    padding-top: 110px;
     align-items: center;
 }
 
-.projects {
+.work {
     padding-top: 100px;
 }
 
-.project-one {
-    padding-top: 20px;
+.project {
+    padding-top: 50px;
+    /* background-image: url('media/Rectangle 1.svg'); */
+}
+
+.project .right {
+    text-align: left;
+}
+
+.project .left {
+    text-align: right;
+    padding-right: 40px;
+}
+
+.project .left img {
+    max-width: 45%;
+    filter: drop-shadow(10px 10px #09c7fb);
 }
 
 .project-two {
@@ -220,6 +242,58 @@ h1 {
 
 .project-three {
     padding-top: 30px;
+}
+
+.project-details {
+    padding-top: 100px;
+}
+
+.detail-section {
+    padding-bottom: 50px;
+}
+
+.detail-section p {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#app-screenshot{
+    padding-top: 10px;
+    /* padding-bottom: 50px; */
+    max-width: 70%;
+}
+
+#proj-timeline {
+    max-width: 75%;
+}
+
+#comp-analysis {
+    max-width: 60%;
+    /* text-align: center; */
+}
+
+#storyboard {
+    max-width: 60%;
+}
+
+#graphs {
+    max-width: 100%;
+}
+.persona-images {
+    max-width: 100%;
+}
+
+.interface-sketches {
+    max-height: 75%;
+    padding-bottom: 25px;
+}
+
+.interface-sketches img{
+    max-height: 15%;
+}
+
+#app-prototype {
+    max-height: 75%;
 }
 
 .resume {

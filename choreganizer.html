@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+  <!--change this to 'en' when you actually add projects-->
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Angeli Conde Pizarro" />
+    <meta name="description" content="Angeli Pizarro's INF 132 Project." />
+    <!-- you would link to an external stylesheet here! -->
+    <!-- you would also link to Bootstrap here! -->
+    <title>Angeli's Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Modak&family=Rubik:ital,wght@0,300..900;1,300..900&family=Young+Serif&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="media/AP.svg" />
+  </head>
+  <!-- navbar -->
+  <body>
+    <header>
+      <div id="brand" class="modak-regular"><a href="/">ACP</a></div>
+      <nav class="topnav">
+        <ul>
+          <li class="active menu-link">
+            <a href="/projects.html">Projects</a>
+          </li>
+          <li class="menu-link">
+            <a href="/resume.html">Resume</a>
+          </li>
+          <li class="menu-link">
+            <a class="nav-link" href="/contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="dropdown">
+        <button
+          class="btn btn-sm dropdown-toggle m-0"
+          style="background-color: #00ced1"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+        >
+          Menu
+        </button>
+        <ul class="dropdown-menu">
+          <li class="menu-link">
+            <a href="/index.html">Home</a>
+          </li>
+          <li class="menu-link">
+            <a href="/projects.html">Projects</a>
+          </li>
+          <li class="menu-link">
+            <a href="/resume.html">Resume</a>
+          </li>
+          <li class="menu-link">
+            <a class="nav-link" href="/contacts.html">Contacts</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+    <!-- project details -->
+    <section class="container project-details" id="choreganizer">
+      <div class="detail-section text-center">
+        <h1 class="josefin-sans-bold">Choreganizer</h1>
+        <img
+          id="app-screenshot"
+          src="media/Choreganizer Screenshot.png"
+          alt="A phone displaying a to-do list of chores and multiple user profiles across the top of the page."
+        />
+      </div>
+      <div class="detail-section row justify-content-evenly">
+        <!-- project logistics -->
+        <div id="role" class="col-md-4 text-center">
+          <h2 class="josefin-sans-semibold">Role</h2>
+          <p>Project Manager & UX Researcher</p>
+        </div>
+        <div id="collab" class="col-md-4 text-center">
+          <h2 class="josefin-sans-semibold">Collaborators</h2>
+          <p>
+            Sushant Gupta<br />
+            Ngoc Huynh<br />
+            Tenzin Tsundae<br />
+            Wendy Zhou
+          </p>
+        </div>
+        <div id="duration" class="col-md-4 text-center">
+          <h2 class="josefin-sans-semibold">Duration</h2>
+          <p>10 Weeks</p>
+        </div>
+      </div>
+      <div id="timeline" class="detail-section">
+        <h2 class="josefin-sans-semibold">Project Timeline</h2>
+        <!-- timeline image -->
+        <div class="row justify-content-evenly">
+          <img
+            id="proj-timeline"
+            src="media/Project Timeline.png"
+            alt="Five blue dots representing the five stages of the project's timeline: discover a problem, competitive analysis, UX research, user analysis, and prototype design."
+          />
+        </div>
+      </div>
+      <div class="detail-section">
+        <h2 class="josefin-sans-semibold">Discovering a Problem</h2>
+        <p>
+          We explored the environment around us and discovered a commonality
+          among our group members and audience, and that is most of us are
+          college students and share a living space with others. After noticing
+          that college students experience roommate struggles related to
+          cleanliness, we developed our problem statement: College student
+          households may find it difficult to have consistency in the completion
+          of chores around the house due to the neglect of chores and lack of
+          responsibility; ultimately, leading to stress and discord among
+          roommates.
+        </p>
+      </div>
+      <div class="detail-section">
+        <h2 class="josefin-sans-semibold">Competitive Analysis</h2>
+        <p>
+          When we had recognized our problem we wanted to solved, we explored
+          how others have tried to solve it before. We found some consistencies
+          and features that we believed needed to be emphasized. I had noticed a
+          lot of desirable features in the Spotless app while finding that it
+          lacked some basic customization that would improve the user
+          experience.
+        </p>
+        <!-- competitive analysis image -->
+        <div class="row justify-content-evenly">
+          <img
+            id="comp-analysis"
+            class="center"
+            src="media/Comp Analysis.svg"
+            alt="A table containing checkmarks indicating the presence of a feature in a product."
+          />
+        </div>
+      </div>
+      <div class="detail-section">
+        <h2 class="josefin-sans-semibold">Storyboard</h2>
+        <p>
+          To further understand how this application could be useful in a
+          college student household, I created a storyboard that highlights a
+          common roommate concern of one pulling more than their own weight with
+          chores, and how the Choreganizer can help distribute house tasks more
+          evenly.
+        </p>
+        <!-- storyboard image -->
+        <div class="row justify-content-evenly">
+          <img
+            id="storyboard"
+            src="media/Storyboard.svg"
+            alt="Six images of a girl doing chores and discussing changes with her roommates with the help of the Choreganizer app."
+          />
+        </div>
+      </div>
+      <div class="detail-section">
+        <h2 class="josefin-sans-semibold">User Insights</h2>
+        <p>
+          Our team created a user survey to understand the current living and
+          housemate situations of college students, and it was distributed among
+          our peers. The user survey provided insight on the communication
+          levels and current chore assigning methods of the students, which then
+          led to the students providing their suggestions and favor toward
+          particular features. The scale was from 1 to 5, 1 being "strongly
+          disagree" and 5 being "strongly agree."
+        </p>
+        <!-- graph images -->
+        <div class="row justify-content-evenly" id="graphs">
+          <img
+            class="col-md-6"
+            src="media/Graph 1.svg"
+            alt="Bar graph of survey answers of if you and your roommates have a chore schedule on a scale from 1 to 5, 1 being strongly disagree and 5 being strongly agree. 9 people strongly disagree, 7 slightly disagree, 13 are neutral, 4 slightly agree, and 3 strongly agree."
+          />
+          <img
+            class="col-md-6"
+            src="media/Graph 2.svg"
+            alt="Bar graph of survey answers of if you and your roommates communicate about chore responsibilities on a scale from 1 to 5, 1 being strongly disagree and 5 being strongly agree. 5 people strongly disagree, 9 slightly disagree, 12 are neutral, 6 slightly agree, and 4 strongly agree."
+          />
+          <img
+            class="col-md-6"
+            src="media/Graph 3.svg"
+            alt="Bar graph of survey answers of if you think that everyone in your household should have a say in determining what chores to do. 1 people strongly disagree, 2 slightly disagree, 8 are neutral, 14 slightly agree, and 11 strongly agree."
+          />
+        </div>
+        <p>
+          The apparent takeaway from these survey results is the lack of
+          communication and understanding of responsibilities in regards to
+          chores amongst roommates. Our team thus made improving communication a
+          priority goal for our product.
+        </p>
+      </div>
+      <div class="detail-section">
+        <h2 class="josefin-sans-semibold">Personas</h2>
+        <p>
+          We further explored the benefits of multiple possible features for the
+          Choreganizer by applying them to two personas that were heavily
+          informed by the insight from the user survey. My teammate produced the
+          personas of Lloyd and Jordan to get an understanding of Choreganizer’s
+          difference in usage. Both have their respective struggles with
+          communication, Lloyd having little experience livng with others and
+          Jordan being a busy body, and both would find Choreganizer as the
+          solution to bridge that gap.
+        </p>
+        <!-- persona images -->
+        <div class="persona-images row">
+          <img
+            class="personas col-md-6"
+            src="media/Persona Lloyd.png"
+            alt="Yellow rectangle with a description of a fictional young college student Lloyd."
+          />
+          <img
+            class="personas col-md-6"
+            src="media/Persona Jordan.png"
+            alt="Yellow rectangle with a description of a fictional busy college student Jordan."
+          />
+        </div>
+      </div>
+      <div class="detail-section">
+        <h2 class="josefin-sans-semibold">Sketches</h2>
+        <p>
+          Initially we sketched some low fidelity mock-ups of possible
+          arrangements of our proposed features. This was my contribution to the
+          low fidelity brainstorming. The left image was produced during a
+          brainstorm exercise. The right image was a low fidelity sketch
+          produced after having reviewed our entire teams sketches and agreeing
+          on interface choices.
+        </p>
+        <!-- sketches -->
+        <div class="row justify-content-evenly text-center interface-sketches">
+          <img
+            class="col-md-4"
+            src="media/Sketch 1.png"
+            alt="Six frames of sketches of possible Choreganizer interface."
+          />
+          <img
+            class="col-md-3"
+            src="media/Sketch 2.png"
+            alt="Four frames of sketches of agreed-upon Choreganizer interface."
+          />
+        </div>
+        <p>
+          We had gathered from our data that the most desired of our proposed
+          features are notifications & reminders, chore descriptions, chore
+          transfer, zones, to-do list, chore order, and transparent chore
+          assignment. Focusing on the features we want to implement, we
+          consolidated aspect from all of our sketches and created a new low
+          fidelity sketch to reach a presentation of the features as desired to
+          elevate the user experience.
+        </p>
+      </div>
+      <div class="detail-section">
+        <h2 class="josefin-sans-semibold">Prototype</h2>
+        <p>
+          We created a prototype that reflects the interface design that we
+          outlined in our sketches. We also chose a color palette that gave a
+          warm feeling and reflected our team name The Aldrich Wanderers.
+        </p>
+        <!-- protoype -->
+        <div class="row justify-content-evenly">
+          <img
+            id="app-prototype"
+            class="col-md-3"
+            src="media/Prototype Choreganizer.gif"
+            alt="Walk through of all the features of our Choreganizer application."
+          />
+        </div>
+        <p>
+          The notable aspects of our design are the to-do lists of each roommate
+          and chore assignment features. The user can view their own chore to-do
+          list and view their housemates’ as well which makes the collective
+          completion of chores a collaborative effort and shared responsibility.
+          The chore assignment system also promotes a collaborative process by
+          allowing any member of the household to create a new task and assign
+          it to another housemate and allow it to cycle through the roommate
+          chore assignment order or set it as a one-time task.
+        </p>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
